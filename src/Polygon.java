@@ -3,13 +3,13 @@ public class Polygon {
     private double sideLength;
     private String shapeType;
 
-    public void Polygon(){
+    public Polygon(){
         numSides = 3;
         sideLength = 1.0;
         shapeType = "Triangle";
     }
 
-    public void Polygon(int s, int sL, String sT){
+    public Polygon(int s, int sL, String sT){
         numSides = s;
         sideLength = sL;
         shapeType = sT;
